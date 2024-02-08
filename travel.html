@@ -3,24 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel</title>
-    <style>
-        h2 {color: blueviolet;
-            font-size: 30px;
-            font-weight: 1000;
-            background-color: beige;
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style> 
+        @media (max-width: 500px) {
+            .hidden-mobile {
+                display: none;
+            }
         }
     </style>
+    <title>Travel</title>
 </head>
 <body>
-    <a href = "#main">Skip to Main Content</a>
+    <a href = "#main" class="hidden-mobile">Skip to Main Content</a>
     <header>
         <nav>
             <ul>
                 <li><a href = "index.html">Home</a></li>
                 <li><a href = "pets.html">Pets</a></li>
                 <li><a href = "recipes.html">Recipes</a></li>
-                <li><a href = "travel.html">Travel</a></li>
+                <li class="active"><a href = "travel.html">Travel</a></li>
             </ul>
         </nav>
         <h1>Travel</h1>
