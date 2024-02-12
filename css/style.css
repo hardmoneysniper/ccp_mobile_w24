@@ -721,3 +721,12 @@ nav ul li {
   margin-right: 0.25em;
   fill: currentColor;
 }
+
+div {
+  margin: 20px;
+}
+
+image {
+  left: 50%;
+  top: 50%;
+}
